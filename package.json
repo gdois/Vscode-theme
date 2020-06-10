@@ -1,0 +1,26 @@
+{
+    "name": "karla-coding-theme",
+    "displayName": "Karla Coding Theme",
+    "description": "Tema criado para a https://www.twitch.tv/karlamag, inspirado no Girl, do u like the unicorn.",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shumtz/Karla-Magueta-Theme.git"
+    },
+    "publisher": "gioexited",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Karla Coding Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Karla Coding Theme-color-theme.json"
+            }
+        ]
+    }
+}
